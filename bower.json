@@ -1,0 +1,12 @@
+{
+	"name": "studio-n-creations-blog-styles",
+	"author": [
+		"Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
+	],
+	"description": "Tracking Wordpress blog styles",
+	"homepage": "https://studioncreations.com/blog/",
+	"ignore": [
+		"**/.*",
+		"bower_components"
+	]
+}
