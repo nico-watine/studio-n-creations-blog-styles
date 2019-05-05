@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.editorconfig",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
