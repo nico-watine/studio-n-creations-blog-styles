@@ -1,0 +1,57 @@
+@import "../_settings.scss";
+
+
+.widget {
+	margin-top: 40px;
+}
+
+.widget:first-child {
+	margin-top: 0;
+}
+
+.widget__title {
+	margin: 0 0 12px 0;
+	padding: 0;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.widget__title + div {
+	padding-left: 12px;
+}
+
+.widget ul {
+	padding-left: 12px;
+}
+
+.widget li {
+	list-style: none;
+	margin-top: 8px;
+}
+
+.widget li:first-child {
+	margin-top: 0;
+}
+
+.widget a {
+	color: $linkBlue;
+}
+
+.widget a:hover,
+.widget a:focus {
+	color: $linkBlue-hover;
+	text-decoration: underline;
+}
+
+.widget_archive ul,
+.widget_categories ul,
+.widget_meta ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget_meta li {
+	margin: 0 12px 12px 0;
+}

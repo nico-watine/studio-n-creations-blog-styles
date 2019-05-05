@@ -1,0 +1,43 @@
+@import "../_settings.scss";
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	color: $black;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	display: inline-block;
+	vertical-align: middle;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+textarea {
+	height: auto;
+	min-height: 50px;
+	border-radius: 0;
+}
+
+select {
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 0;
+}

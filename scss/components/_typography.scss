@@ -1,0 +1,107 @@
+@import "../_settings.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:600");
+$minWidth-640: "only screen and (min-width : 640px)";
+
+p {
+	font-size: $p;
+	line-height: 1.6;
+	margin: 1em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.4;
+	margin: 0 0 8px;
+}
+
+h1 {
+	font-size: $h1;
+}
+
+h2 {
+	font-size: $h2;
+}
+
+h3 {
+	font-size: $h3;
+}
+
+h4 {
+	font-size: $h4;
+}
+
+h5 {
+	font-size: $h5;
+	font-weight: normal;
+}
+
+h6 {
+	font-size: $h6;
+	font-weight: normal;
+}
+
+@media #{$minWidth-640} {
+	p {
+		font-size: $p-medium;
+	}
+
+	h1 {
+		font-size: $h1-medium;
+	}
+
+	h2 {
+		font-size: $h2-medium;
+	}
+
+	h3 {
+		font-size: $h3-medium;
+	}
+
+	h4 {
+		font-size: $h4-medium;
+	}
+
+	h5 {
+		font-size: $h5-medium;
+	}
+
+	h6 {
+		font-size: $h6-medium;
+	}
+}
+
+.monospace {
+	font-family: "Source Code Pro", Consolas, "Liberation Mono", Courier, monospace;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+a {
+	padding-bottom: 4px;
+	color: $linkBlue;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: $linkBlue-hover;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+input,
+textarea {
+	max-width: 100%;
+}
