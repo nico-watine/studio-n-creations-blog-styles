@@ -97,7 +97,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/scss/_settings.scss": {
+	"/scss/_var.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -105,7 +105,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/_settings.css",
+		"oAP": "/scss/_var.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
