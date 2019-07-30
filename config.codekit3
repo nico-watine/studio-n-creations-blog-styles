@@ -44,20 +44,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/studio-n-creations-blog-styles.sublime-project": {
+	"/_ignores/studio-n-creations-wp-blog.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_ignores/studio-n-creations-blog-styles.sublime-project",
+		"oAP": "/_ignores/studio-n-creations-wp-blog.sublime-project",
 		"oF": 0
 		},
-	"/_ignores/studio-n-creations-blog-styles.sublime-workspace": {
+	"/_ignores/studio-n-creations-wp-blog.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/_ignores/studio-n-creations-blog-styles.sublime-workspace",
+		"oAP": "/_ignores/studio-n-creations-wp-blog.sublime-workspace",
 		"oF": 0
 		},
 	"/bower.json": {
@@ -229,7 +229,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 578731231.41129398,
-	"displayValue": "studio-n-creations-blog-styles",
+	"displayValue": "studio-n-creations-wp-blog",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/_ignores/codekit-icon.png",
 	"iconImageWasSetByUser": 1
