@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/.csscomb.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/.csscomb-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
