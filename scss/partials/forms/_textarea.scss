@@ -1,0 +1,15 @@
+textarea {
+	font-family: inherit; // Change the font styles in all browsers.
+	font-size: 100%; // Change the font styles in all browsers.
+	line-height: 1.15; // Change the font styles in all browsers.
+	margin: 0; // Remove the margin in Firefox and Safari.
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	min-height: 50px;
+	overflow: auto; // Remove the default vertical scrollbar in IE 10+.
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}

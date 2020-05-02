@@ -1,0 +1,60 @@
+button {
+	font-family: inherit; // Change the font styles in all browsers.
+	font-size: 100%; // Change the font styles in all browsers.
+	line-height: 1.15; // Change the font styles in all browsers.
+	margin: 0; // Remove the margin in Firefox and Safari.
+	width: 100%;
+	text-transform: none; // Remove the inheritance of text transform in Firefox.
+	overflow: visible; // Show the overflow in Edge.
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button; // Correct the inability to style clickable types in iOS and Safari.
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	// Remove the inner border and padding in Firefox.
+	border-style: none;
+	padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	// Restore the focus styles unset by the previous rule.
+	outline: 1px dotted ButtonText;
+}
+
+[type='checkbox'],
+[type='radio'] {
+	box-sizing: border-box; // Add the correct box sizing in IE 10.
+	padding: 0; // Remove the padding in IE 10.
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	// Correct the cursor style of increment and decrement buttons in Chrome.
+	height: auto;
+}
+
+[type='search'] {
+	-webkit-appearance: textfield; // Correct the odd appearance in Chrome and Safari.
+	outline-offset: -2px; // Correct the outline style in Safari.
+}
+
+[type='search']::-webkit-search-decoration {
+	// Remove the inner padding in Chrome and Safari on macOS.
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; // Correct the inability to style clickable types in iOS and Safari.
+	font: inherit; // Change font properties to `inherit` in Safari.
+}

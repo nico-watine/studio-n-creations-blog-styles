@@ -1,0 +1,26 @@
+input {
+	font-family: inherit; // Change the font styles in all browsers.
+	font-size: 100%; // Change the font styles in all browsers.
+	line-height: 1.15; // Change the font styles in all browsers.
+	margin: 0; // Remove the margin in Firefox and Safari.
+	width: 100%;
+	max-width: 100%;
+	overflow: visible; // Show the overflow in Edge.
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}
+
+input[name='submit'] {
+	display: inline-block;
+	padding: 8px 12px;
+	border-radius: 3px;
+	border: none;
+	background: #1779ba;
+	color: #fff;
+}
+
+input[name='submit']:hover {
+	cursor: pointer;
+}
