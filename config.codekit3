@@ -173,19 +173,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/partials/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/partials/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/partials/_lists.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -290,7 +277,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/temp/_button.scss": {
+	"/scss/partials/forms/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -298,12 +285,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/temp/_button.css",
+		"oAP": "/scss/partials/forms/_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/temp/_input.scss": {
+	"/scss/partials/forms/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -311,12 +298,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/temp/_input.css",
+		"oAP": "/scss/partials/forms/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/temp/_optgroup.scss": {
+	"/scss/partials/forms/_input.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -324,12 +311,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/temp/_optgroup.css",
+		"oAP": "/scss/partials/forms/_input.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/temp/_select.scss": {
+	"/scss/partials/forms/_optgroup.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -337,12 +324,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/temp/_select.css",
+		"oAP": "/scss/partials/forms/_optgroup.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/temp/_textarea.scss": {
+	"/scss/partials/forms/_select.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -350,7 +337,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/temp/_textarea.css",
+		"oAP": "/scss/partials/forms/_select.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/forms/_textarea.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/forms/_textarea.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
