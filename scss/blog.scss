@@ -1,6 +1,23 @@
-@import '_var.scss';
+// Google Fonts Import
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:600');
 
-@import 'components/_resets.scss';
-@import 'components/_typography.scss';
-@import 'blocks/_wordpress-theme-all.scss';
-@import 'blocks/_header.scss';
+// Reset
+@import 'original/_reset.scss';
+
+// Elements
+@import 'original/_input-textarea.scss';
+@import 'original/_body.scss';
+@import 'original/_typography.scss';
+@import 'original/_pre-code.scss';
+@import 'original/_lists.scss';
+@import 'original/_address.scss';
+@import 'original/_table.scss';
+@import 'original/_figure.scss';
+@import 'original/_blockquote.scss';
+
+// Wordpress
+@import 'original/_screen-reader.scss';
+@import 'original/_wordpress-basics.scss';
+
+// Theme Specifics
+@import 'original/_theme-basics.scss';

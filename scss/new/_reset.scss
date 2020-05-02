@@ -1,0 +1,171 @@
+html {
+	box-sizing: border-box; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+	font-size: 100%;
+	line-height: 1.15; // [normalize] Correct the line height in all browsers
+	font-family: sans-serif; // [Opinionated] So <p> and <h#> have a standard font to inherit
+	-webkit-text-size-adjust: 100%; // [normalize] Prevent adjustments of font size after orientation changes in iOS
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit; // [css-tricks.com] https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+}
+
+body {
+	margin: 0; // [normalize] Remove the margin in all browsers.
+	padding: 0;
+	background-color: #fff;
+	color: #000; // [Opinionated] necessary for <h> to have color:inherit
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	color: inherit;
+}
+
+h1 {
+	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
+}
+
+p {
+	padding: 0;
+	margin-top: 0; // [bootstrap-reboot]
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
+}
+
+a {
+	color: #0000ee; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
+	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
+	line-height: inherit;
+}
+
+b,
+strong {
+	font-weight: bolder; // [normalize] Add the correct font weight in Chrome, Edge, and Safari.
+	line-height: inherit;
+}
+
+i,
+em {
+	font-style: italic;
+	line-height: inherit;
+}
+
+small {
+	font-size: 80%;
+	line-height: inherit;
+}
+
+address {
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 1rem;
+	padding: 0;
+	line-height: inherit;
+}
+
+img {
+	display: inline-block;
+	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic; // For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+	border-style: none; // Remove the border on images inside links in IE 10.
+}
+
+video {
+	vertical-align: middle; // [h5bp-main-reset] Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
+	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+}
+
+hr {
+	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.
+	height: 0; // [normalize] Add the correct box sizing in Firefox.
+	overflow: visible; // [normalize] Show the overflow in Edge and IE.
+	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
+	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
+	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
+	border-bottom: 1px solid #cacaca; // [Opinionated]
+}
+
+sub,
+sup {
+	// [normalize] - Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	// [normalize] - Prevent `sub` elements from affecting the line height in all browsers.
+	bottom: -.25em;
+}
+
+sup {
+	// [normalize] - Prevent `sup` elements from affecting the line height in all browsers.
+	top: -.5em;
+}
+
+pre {
+	margin-top: 0;
+	margin-bottom: 1rem; // [Opinionated]
+	clear: both;
+	display: block;
+	padding: 0;
+	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers
+	font-size: 1em; // [normalize] Correct the odd `em` font sizing in all browsers.
+	// `word-break` CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box
+	word-break: normal;
+	// `tab-size` CSS property is used to customize the width of a tab (U+0009) character
+	tab-size: 4; // [Opinionated]
+	// 'hyphens` CSS property specifies how words should be hyphenated when text wraps across multiple lines.
+	hyphens: none; // [Opinionated] Words are not broken at line breaks, even if characters inside the words suggest line break points. Lines will only wrap at whitespace.
+	background: #f7f7f9; // [Opinionated]
+	color: #000; // [Opinionated]
+	border: 1px solid #dbe2f2; // [Opinionated]
+	border-radius: 4px; // [Opinionated]
+}
+
+code {
+	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers.
+	font-size: 90%; // [Opinionated] Make `font-size` slightly smaller than root since <code> will have some padding
+	padding: .1rem .3rem .2rem; // [Opinionated]
+	// `word-break` CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box
+	word-break: break-all; // [Opinionated] To prevent overflow, word breaks should be inserted between any two characters
+	// `white-space` CSS property sets how white space inside an element is handled
+	white-space: pre; // [Opinionated] Sequences of white space are preserved. Lines are only broken at newline characters in the source and at <br> elements.
+	background: #f7f7f9; // [Opinionated]
+	color: #000; // [Opinionated]
+}
+
+pre code {
+	// Per recommendation of CSS wizard Chris Coyier, wrap your <code> tag inside <pre>
+	// https://mediatemple.net/blog/tips/considerations-for-styling-the-pre-tag/
+
+	display: block;
+	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
+	line-height: 1.5; // [Opinionated]
+	padding: 16px; // [Opinionated] - Match `font-size`
+	max-width: 100%; // So <code> doesn't expand outside its <pre> wrapper
+	min-width: 100px; // [Opinionated] - so <code> has at least 100px to display its content
+	// `white-space` CSS property sets how white space inside an element is handled
+	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
+	background: none; // [Opinionated] Since <code> will be wrapped in <pre>, and <pre> already has a `background` set
+}

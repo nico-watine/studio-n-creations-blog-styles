@@ -1,0 +1,43 @@
+blockquote {
+	position: relative;
+	display: block;
+	width: 96%;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 40px;
+	background-color: #eee;
+}
+
+blockquote::before {
+	content: '“';
+	font-size: 50px;
+	line-height: 1em;
+	font-family: sans-serif;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+blockquote p,
+blockquote h1,
+blockquote h2,
+blockquote h3,
+blockquote h4,
+blockquote h5,
+blockquote h6,
+blockquote ul,
+blockquote ol,
+blockquote dl,
+blockquote table {
+	margin: 0;
+}
+
+blockquote + figcaption {
+	width: 96%;
+	margin: 0 auto;
+	text-align: right;
+	font-weight: normal;
+	font-style: italic;
+}
