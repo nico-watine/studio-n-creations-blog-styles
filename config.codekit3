@@ -25,6 +25,19 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/_ignores/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_ignores/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/_ignores/codekit-icon.png": {
 		"ft": 32768,
 		"iS": 7056,
@@ -103,12 +116,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/blog.css",
-		"oF": 0,
+		"oAP": "/css/blog.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/new/_reset.scss": {
+	"/scss/partials/_address.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -116,12 +129,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/new/_reset.css",
+		"oAP": "/scss/partials/_address.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_address.scss": {
+	"/scss/partials/_blockquote.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -129,12 +142,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_address.css",
+		"oAP": "/scss/partials/_blockquote.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_blockquote.scss": {
+	"/scss/partials/_body.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -142,12 +155,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_blockquote.css",
+		"oAP": "/scss/partials/_body.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_body.scss": {
+	"/scss/partials/_figure.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -155,12 +168,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_body.css",
+		"oAP": "/scss/partials/_figure.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_figure.scss": {
+	"/scss/partials/_input-textarea.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -168,12 +181,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_figure.css",
+		"oAP": "/scss/partials/_input-textarea.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_input-textarea.scss": {
+	"/scss/partials/_lists.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -181,12 +194,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_input-textarea.css",
+		"oAP": "/scss/partials/_lists.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_lists.scss": {
+	"/scss/partials/_pre-code.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -194,12 +207,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_lists.css",
+		"oAP": "/scss/partials/_pre-code.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_pre-code.scss": {
+	"/scss/partials/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -207,12 +220,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_pre-code.css",
+		"oAP": "/scss/partials/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_reset.scss": {
+	"/scss/partials/_screen-reader.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -220,12 +233,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_reset.css",
+		"oAP": "/scss/partials/_screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_screen-reader.scss": {
+	"/scss/partials/_table.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -233,12 +246,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_screen-reader.css",
+		"oAP": "/scss/partials/_table.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_table.scss": {
+	"/scss/partials/_theme-basics.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -246,12 +259,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_table.css",
+		"oAP": "/scss/partials/_theme-basics.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_theme-basics.scss": {
+	"/scss/partials/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -259,12 +272,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_theme-basics.css",
+		"oAP": "/scss/partials/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/original/_typography.scss": {
+	"/scss/partials/_wordpress-basics.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -272,20 +285,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/original/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/original/_wordpress-basics.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/original/_wordpress-basics.css",
+		"oAP": "/scss/partials/_wordpress-basics.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

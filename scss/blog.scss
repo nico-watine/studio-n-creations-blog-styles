@@ -2,22 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:600');
 
 // Reset
-@import 'original/_reset.scss';
+@import 'partials/_reset.scss';
 
 // Elements
-@import 'original/_input-textarea.scss';
-@import 'original/_body.scss';
-@import 'original/_typography.scss';
-@import 'original/_pre-code.scss';
-@import 'original/_lists.scss';
-@import 'original/_address.scss';
-@import 'original/_table.scss';
-@import 'original/_figure.scss';
-@import 'original/_blockquote.scss';
+@import 'partials/_input-textarea.scss';
+@import 'partials/_body.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_pre-code.scss';
+@import 'partials/_lists.scss';
+@import 'partials/_address.scss';
+@import 'partials/_table.scss';
+@import 'partials/_figure.scss';
+@import 'partials/_blockquote.scss';
 
 // Wordpress
-@import 'original/_screen-reader.scss';
-@import 'original/_wordpress-basics.scss';
+@import 'partials/_screen-reader.scss';
+@import 'partials/_wordpress-basics.scss';
 
 // Theme Specifics
-@import 'original/_theme-basics.scss';
+@import 'partials/_theme-basics.scss';
