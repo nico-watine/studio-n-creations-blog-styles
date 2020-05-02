@@ -4,14 +4,8 @@ button {
 	line-height: 1.15; // Change the font styles in all browsers.
 	margin: 0; // Remove the margin in Firefox and Safari.
 	width: 100%;
-}
-
-button {
-	overflow: visible; // Show the overflow in Edge.
-}
-
-button {
 	text-transform: none; // Remove the inheritance of text transform in Firefox.
+	overflow: visible; // Show the overflow in Edge.
 }
 
 button,
