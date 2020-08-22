@@ -51,10 +51,6 @@
 		width: 96%;
 		max-width: 700px;
 	}
-	.site-content.col-2 {
-		width: 96%;
-		max-width: 1000px;
-	}
 }
 
 .primary {
@@ -102,22 +98,6 @@
 	max-width: 700px;
 }
 
-.blog .col-2 .article-wrap,
-.archive .col-2 .article-wrap,
-.search .col-2 .article-wrap {
-	display: flex;
-	flex-wrap: wrap;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-
-.blog .col-2 .entry,
-.archive .col-2 .entry,
-.search .col-2 .entry {
-	width: 48%;
-}
-
 .error404 .primary {
 	height: 350px;
 	padding-top: 100px;
@@ -162,10 +142,7 @@
 
 .mdr-column,
 .mdr-tile {
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
 	flex-grow: 1;
-	-ms-flex-negative: 1;
 	flex-shrink: 1;
 }
 
@@ -216,7 +193,6 @@
 	.mdr-tile.is-9,
 	.mdr-tile.is-10,
 	.mdr-tile.is-11 {
-		-webkit-box-flex: 0;
 		flex: none;
 	}
 	.mdr-column.is-2,
@@ -263,7 +239,6 @@
 
 .mdr-column {
 	display: block;
-	-ms-flex-preferred-size: 0;
 	flex-basis: 0;
 	padding: 10px;
 }
@@ -275,18 +250,13 @@
 @media (min-width: 768px) {
 	.mdr-tile {
 		display: flex;
-		-webkit-box-align: stretch;
-		-ms-flex-align: stretch;
 		align-items: stretch;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 		min-height: min-content;
 	}
 }
 
 .mdr-tile.is-vertical {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
 	flex-direction: column;
 }
 
@@ -556,10 +526,6 @@
 	color: #fff;
 }
 
-.col-2 .entry:nth-child(2) {
-	margin-top: 0;
-}
-
 .home .entry__content p,
 .archive .entry__content p,
 .search .entry__content p {
@@ -578,11 +544,7 @@
 .single-post .entry__header,
 .page .entry__header {
 	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	position: relative;
 	min-height: 300px;
@@ -823,8 +785,6 @@ form[role='search'] .search-submit:hover {
 
 .nav-links {
 	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	width: 100%;
 	min-height: 80px;
@@ -888,7 +848,6 @@ form[role='search'] .search-submit:hover {
 }
 
 .nav-next {
-	-webkit-box-flex: 1;
 	flex: 1 1 0;
 }
 
@@ -941,7 +900,7 @@ form[role='search'] .search-submit:hover {
 	box-shadow: none;
 	border: none;
 	background-color: inherit;
-	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
 	appearance: button;
 }
 
@@ -1262,8 +1221,6 @@ input[name='Submit']:hover {
 
 .sns-menu {
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -1486,8 +1443,6 @@ input[name='Submit']:hover {
 .header {
 	display: flex;
 	z-index: 5;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	width: 100%;
 	height: 60px;
