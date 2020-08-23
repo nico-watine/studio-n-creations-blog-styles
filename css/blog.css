@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*
+Theme Name: SNC Blog
+Author: Nico Watine
+Version: 1.1
+*/
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:600");
 html {
   box-sizing: border-box;
