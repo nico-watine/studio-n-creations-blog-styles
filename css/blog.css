@@ -784,6 +784,12 @@ textarea {
   text-align: center;
 }
 
+.footer .colophon {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+
 .footer a {
   color: #fff;
 }
