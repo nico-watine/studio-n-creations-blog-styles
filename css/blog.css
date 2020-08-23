@@ -296,6 +296,7 @@ a {
 a:hover,
 a:focus {
   color: #1468a0;
+  text-decoration: underline;
 }
 
 pre {
