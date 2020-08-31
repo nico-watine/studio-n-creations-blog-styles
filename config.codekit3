@@ -49,6 +49,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_ignores/screenshot.png": {
+		"ft": 32768,
+		"iS": 37637,
+		"oA": 0,
+		"oAP": "/_ignores/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_ignores/scss": {
 		"ft": 65536,
 		"oA": 1,
@@ -70,6 +81,16 @@
 		"oA": 0,
 		"oAP": "/_ignores/studio-n-creations-wp-blog.sublime-workspace",
 		"oF": 0
+		},
+	"/_ignores/style-header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_ignores/style-header-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/bower.json": {
 		"ft": 524288,
