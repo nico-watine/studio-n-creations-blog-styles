@@ -5,7 +5,7 @@ Author: Nico Watine
 Description: Theme for Studio N Creations blog
 Version: 1.2
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:600");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:400,600");
 html {
   box-sizing: border-box;
   font-size: 100%;
