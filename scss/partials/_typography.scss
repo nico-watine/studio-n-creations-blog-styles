@@ -1,7 +1,7 @@
 p {
 	font-size: 18px;
 	line-height: 1.6;
-	// margin: 1em 0;
+	margin-bottom: 18px;
 }
 
 h1,
@@ -43,6 +43,7 @@ h6 {
 @media only screen and (min-width: 640px) {
 	p {
 		font-size: 21px;
+		margin-bottom: 21px;
 	}
 	h1 {
 		font-size: 48px;
