@@ -110,36 +110,20 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/functions/canonical.php": {
+	"/functions/examples/crunchify-example.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/functions/canonical.php",
+		"oAP": "/functions/examples/crunchify-example.php",
 		"oF": 0
 		},
-	"/functions/example-1.php": {
+	"/functions/examples/wordpress-assist-example.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/functions/example-1.php",
-		"oF": 0
-		},
-	"/functions/example-2.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/functions/example-2.php",
-		"oF": 0
-		},
-	"/functions/example-3.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/functions/example-3.php",
+		"oAP": "/functions/examples/wordpress-assist-example.php",
 		"oF": 0
 		},
 	"/functions/functions.php": {
@@ -150,20 +134,36 @@
 		"oAP": "/functions/functions.php",
 		"oF": 0
 		},
-	"/functions/gutenberg-editor.php": {
+	"/functions/hooks/canonical.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/functions/gutenberg-editor.php",
+		"oAP": "/functions/hooks/canonical.php",
 		"oF": 0
 		},
-	"/functions/jquery-migrate.php": {
+	"/functions/hooks/gutenberg-editor.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/functions/jquery-migrate.php",
+		"oAP": "/functions/hooks/gutenberg-editor.php",
+		"oF": 0
+		},
+	"/functions/hooks/jquery-migrate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/jquery-migrate.php",
+		"oF": 0
+		},
+	"/functions/sort-these.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/sort-these.php",
 		"oF": 0
 		},
 	"/README.md": {
