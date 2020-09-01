@@ -142,6 +142,22 @@
 		"oAP": "/functions/hooks/canonical.php",
 		"oF": 0
 		},
+	"/functions/hooks/emojis.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/emojis.php",
+		"oF": 0
+		},
+	"/functions/hooks/generator.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/generator.php",
+		"oF": 0
+		},
 	"/functions/hooks/gutenberg-editor.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -156,6 +172,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions/hooks/jquery-migrate.php",
+		"oF": 0
+		},
+	"/functions/hooks/rsd-link.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/rsd-link.php",
+		"oF": 0
+		},
+	"/functions/hooks/shortlink.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/shortlink.php",
+		"oF": 0
+		},
+	"/functions/hooks/wlw-manifest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/hooks/wlw-manifest.php",
 		"oF": 0
 		},
 	"/functions/sort-these.php": {
