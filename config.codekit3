@@ -49,14 +49,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_ignores/functions.php",
-		"oF": 0
-		},
 	"/_ignores/screenshot.png": {
 		"ft": 32768,
 		"iS": 37637,
@@ -117,6 +109,14 @@
 		"oAP": "/css/blog-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/functions/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/functions.php",
+		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
