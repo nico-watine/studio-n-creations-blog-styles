@@ -110,6 +110,22 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/functions/example-1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/example-1.php",
+		"oF": 0
+		},
+	"/functions/example-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/example-2.php",
+		"oF": 0
+		},
 	"/functions/functions.php": {
 		"cB": 0,
 		"ft": 8192,
