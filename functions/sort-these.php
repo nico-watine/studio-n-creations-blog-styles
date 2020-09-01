@@ -20,5 +20,3 @@ remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
 remove_filter('pre_oembed_result', 'wp_filter_pre_oembed_result', 10);
 
 add_filter('embed_oembed_discover', '__return_false');
-
-add_action('wp_default_scripts', 'remove_jquery_migrate');

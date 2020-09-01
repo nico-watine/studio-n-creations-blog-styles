@@ -13,3 +13,5 @@ function remove_jquery_migrate($scripts)
 		}
 	}
 }
+
+add_action('wp_default_scripts', 'remove_jquery_migrate');
