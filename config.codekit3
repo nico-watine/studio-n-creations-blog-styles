@@ -150,6 +150,14 @@
 		"oAP": "/functions/functions.php",
 		"oF": 0
 		},
+	"/functions/jquery-migrate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/jquery-migrate.php",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
