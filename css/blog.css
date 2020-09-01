@@ -1861,52 +1861,6 @@ input[name='Submit']:hover {
   cursor: pointer;
 }
 
-.icon {
-  display: inline-block;
-  fill: currentColor;
-  margin-top: -.2em;
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-}
-
-.icon--2x {
-  width: 2em;
-  height: 2em;
-}
-
-.icon--3x {
-  width: 3em;
-  height: 3em;
-}
-
-.icon--4x {
-  width: 4em;
-  height: 4em;
-}
-
-.icon--full {
-  width: 100%;
-  height: 100%;
-}
-
-.icon--fill {
-  background-color: currentColor;
-  fill: #fff;
-}
-
-.icon--round {
-  border-radius: 4px;
-}
-
-.icon--circle {
-  border-radius: 50%;
-}
-
-.icon--border {
-  border: 1px solid currentColor;
-}
-
 .footer__info {
   margin-top: 20px;
 }
