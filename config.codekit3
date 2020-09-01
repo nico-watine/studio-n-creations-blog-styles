@@ -110,6 +110,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/functions/canonical.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/functions/canonical.php",
+		"oF": 0
+		},
 	"/functions/example-1.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -140,14 +148,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions/functions.php",
-		"oF": 0
-		},
-	"/functions/optionals.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/functions/optionals.php",
 		"oF": 0
 		},
 	"/README.md": {
