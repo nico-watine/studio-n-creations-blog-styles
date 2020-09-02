@@ -1,7 +1,7 @@
 p {
 	font-size: 18px;
 	line-height: 1.6;
-	margin: 1em 0;
+	margin-bottom: 18px;
 }
 
 h1,
@@ -10,8 +10,9 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: 1.4;
+	line-height: 1.2;
 	margin: 0 0 8px;
+	padding-top: 18px;
 }
 
 h1 {
@@ -41,8 +42,13 @@ h6 {
 }
 
 @media only screen and (min-width: 640px) {
-	p {
-		font-size: 21px;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		padding-top: 21px;
 	}
 	h1 {
 		font-size: 48px;
@@ -56,18 +62,13 @@ h6 {
 	h4 {
 		font-size: 25px;
 	}
-	h5 {
-		font-size: 16px;
-	}
-	h6 {
-		font-size: 14px;
-	}
 }
 
 .monospace {
 	font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
 	-webkit-font-smoothing: auto;
 	text-transform: uppercase;
+	padding: 0;
 }
 
 a {
