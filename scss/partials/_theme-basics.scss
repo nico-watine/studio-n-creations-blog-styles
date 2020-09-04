@@ -1071,6 +1071,7 @@ form[role='search'] .search-submit:hover {
 
 .entry__content figcaption {
 	font-weight: bold;
+	text-align: center;
 }
 
 .entry__content img {
@@ -1078,9 +1079,10 @@ form[role='search'] .search-submit:hover {
 	height: auto;
 }
 
-.entry__content img + figcaption {
-	font-weight: normal;
-}
+// .entry__content img + figcaption {
+// 	font-weight: bold;
+// 	text-align: center;
+// }
 
 .entry__content blockquote {
 	position: relative;
