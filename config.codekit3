@@ -467,7 +467,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/partials/theme/_slide-nav.scss": {
+	"/scss/partials/theme/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -475,7 +475,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/partials/theme/_slide-nav.css",
+		"oAP": "/scss/partials/theme/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
