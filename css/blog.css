@@ -1027,73 +1027,6 @@ textarea {
   color: #fff;
 }
 
-.gnav {
-  position: fixed;
-  top: 0;
-  right: -80%;
-  z-index: 3;
-  width: 80%;
-  height: 100%;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-@media (min-width: 640px) {
-  .gnav {
-    right: -300px;
-    width: 300px;
-  }
-}
-
-.gnav li {
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid #ccc;
-}
-
-.gnav li.current-menu-item > a {
-  color: #1779ba;
-}
-
-.gnav a {
-  display: block;
-  padding: 14px 10px;
-  color: #0a0a0a;
-}
-
-.gnav a:hover {
-  color: #1468a0;
-  text-decoration: underline;
-}
-
-.primary-menu {
-  width: 100%;
-  padding: 60px 0 10px;
-}
-
-@media (min-width: 640px) {
-  .primary-menu {
-    padding-top: 75px;
-  }
-}
-
-.sub-menu {
-  display: block;
-}
-
-.sub-menu li {
-  border-top: 1px solid #ccc;
-  border-bottom: none;
-}
-
-.sub-menu a {
-  padding-left: 40px;
-}
-
-.sub-menu .sub-menu a {
-  padding-left: 70px;
-}
-
 .widget {
   margin-top: 40px;
 }
@@ -2147,4 +2080,71 @@ input[name='Submit']:hover {
 
 .custom-logo-link + .header__title {
   margin-left: 12px;
+}
+
+.gnav {
+  position: fixed;
+  top: 0;
+  right: -80%;
+  z-index: 3;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+@media (min-width: 640px) {
+  .gnav {
+    right: -300px;
+    width: 300px;
+  }
+}
+
+.gnav li {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.gnav li.current-menu-item > a {
+  color: #1779ba;
+}
+
+.gnav a {
+  display: block;
+  padding: 14px 10px;
+  color: #0a0a0a;
+}
+
+.gnav a:hover {
+  color: #1468a0;
+  text-decoration: underline;
+}
+
+.primary-menu {
+  width: 100%;
+  padding: 60px 0 10px;
+}
+
+@media (min-width: 640px) {
+  .primary-menu {
+    padding-top: 75px;
+  }
+}
+
+.sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.sub-menu a {
+  padding-left: 40px;
+}
+
+.sub-menu .sub-menu a {
+  padding-left: 70px;
 }
