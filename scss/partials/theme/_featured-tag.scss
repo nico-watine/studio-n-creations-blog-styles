@@ -1,3 +1,4 @@
+// On main index blog roll:
 .entry__featured {
 	display: inline-block;
 	padding: 2px 8px;
@@ -10,6 +11,7 @@
 	}
 }
 
+// In the header of a single post page:
 .single-post .entry__featured,
 .page .entry__featured {
 	margin-bottom: 16px;
