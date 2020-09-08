@@ -233,6 +233,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/scss/_var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_var.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/blog.scss": {
 		"aP": 1,
 		"bl": 0,
