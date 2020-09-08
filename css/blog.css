@@ -2073,7 +2073,7 @@ input[name='Submit']:hover {
   margin: auto;
   width: 28px;
   height: 2px;
-  background-color: #333;
+  background-color: #fff;
   top: 0;
   bottom: 0;
   left: 0;
@@ -2087,7 +2087,7 @@ input[name='Submit']:hover {
   margin: auto;
   width: 28px;
   height: 2px;
-  background-color: #333;
+  background-color: #fff;
   top: 9px;
   left: 0;
   right: 0;
@@ -2102,7 +2102,7 @@ input[name='Submit']:hover {
   margin: auto;
   width: 28px;
   height: 2px;
-  background-color: #333;
+  background-color: #fff;
   bottom: 9px;
   left: 0;
   right: 0;
