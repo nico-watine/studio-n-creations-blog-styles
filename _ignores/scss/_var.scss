@@ -2,7 +2,7 @@
 // |            Media-Queries            |
 // ---------------------------------------
 // medium+
-$minWidth-640: "only screen and (min-width : 640px)";
+$minWidth-640: 'only screen and (min-width : 640px)';
 
 
 // ----------------------------------------------
@@ -41,3 +41,9 @@ $red: #cc4b37;
 $orange: #ffae00;
 $green: #3adb76;
 
+
+// ----------------------------------------------
+// |            box-shadow Variables            |
+// ----------------------------------------------
+$z-1: 0 1px 4px 0 rgba(0,0,0,.37);
+$z-2: 0 2px 2px 0 rgba(0,0,0,.20), 0 6px 10px 0 rgba(0,0,0,.30);
