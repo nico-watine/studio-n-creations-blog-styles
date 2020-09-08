@@ -1878,6 +1878,10 @@ input[name='Submit']:hover {
   color: #fff;
 }
 
+.entry__featured svg.icon {
+  display: none;
+}
+
 .single-post .entry__featured,
 .page .entry__featured {
   margin-bottom: 16px;
