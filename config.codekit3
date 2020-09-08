@@ -480,6 +480,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/partials/theme/_featured-tag.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/theme/_featured-tag.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/partials/theme/_header.scss": {
 		"aP": 0,
 		"bl": 0,

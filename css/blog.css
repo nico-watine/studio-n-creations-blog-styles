@@ -1141,14 +1141,6 @@ textarea {
   color: #1779ba;
 }
 
-.entry__featured {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 3px;
-  background: #333;
-  color: #fff;
-}
-
 .home .entry__content p,
 .archive .entry__content p,
 .search .entry__content p {
@@ -1268,13 +1260,6 @@ textarea {
   width: 96%;
   max-width: 700px;
   margin: 40px auto 0;
-}
-
-.single-post .entry__featured,
-.page .entry__featured {
-  margin-bottom: 16px;
-  background: #fff;
-  color: #333;
 }
 
 .single-post .posted-on,
@@ -1883,6 +1868,25 @@ input[name='Submit']:hover {
 .comment-form-email label,
 .comment-form-url label {
   display: block;
+}
+
+.entry__featured {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: #333;
+  color: #fff;
+}
+
+.entry__featured svg.icon {
+  display: none;
+}
+
+.single-post .entry__featured,
+.page .entry__featured {
+  margin-bottom: 16px;
+  background: #fff;
+  color: #000;
 }
 
 .header {
