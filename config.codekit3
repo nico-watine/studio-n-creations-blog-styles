@@ -552,6 +552,14 @@
 		"oA": 0,
 		"oAP": "/TODO",
 		"oF": 0
+		},
+	"/wordpress-theme-files/snc-blog/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wordpress-theme-files/snc-blog/functions.php",
+		"oF": 0
 		}
 	},
 "hooks": [
