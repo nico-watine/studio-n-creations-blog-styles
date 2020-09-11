@@ -27,7 +27,7 @@ function modernize_setup() {
 	add_theme_support( 'title-tag' );
 
 	/*
-	 * Enable support for Post Thumbnails on posts and pages.
+	 * Enable support for Post Thumbnails (via Featured Image) on posts and pages.
 	 */
 	add_theme_support( 'post-thumbnails' );
 
