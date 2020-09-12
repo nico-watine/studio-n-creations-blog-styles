@@ -312,20 +312,19 @@ code {
   color: #fff;
   border-radius: 4px;
   -webkit-font-smoothing: auto;
+  background-color: #313942;
 }
 
 pre {
   display: block;
   width: 96%;
   padding: 16px;
-  background-color: #313942;
   font-size: 16px;
   word-wrap: break-word;
   overflow: auto;
 }
 
 code {
-  background-color: #313942;
   font-size: 80%;
   padding: 4px;
 }
