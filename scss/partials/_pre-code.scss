@@ -1,22 +1,22 @@
+pre,
+code {
+	font-family: "Source Code Pro", monospace;
+	color: #fff;
+	border-radius: 4px;
+	-webkit-font-smoothing: auto;
+	background-color: #313942;
+}
+
 pre {
 	display: block;
 	width: 96%;
 	padding: 16px;
-	border-radius: 4px;
-	background-color: #313942;
 	font-size: 16px;
-	color: #fff;
 	word-wrap: break-word;
 	overflow: auto;
-	-webkit-font-smoothing: auto;
 }
 
 code {
-	font-family: "Source Code Pro", monospace, monospace;
-	background-color: #313942;
-	color: #fff;
 	font-size: 80%;
 	padding: 4px;
-	border-radius: 4px;
-	-webkit-font-smoothing: auto;
 }
