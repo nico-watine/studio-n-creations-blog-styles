@@ -142,3 +142,10 @@ remove_action('wp_head', 'wlwmanifest_link'); // Remove Windows Live Writer Mani
 remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0); // Remove shortlink
 remove_action('wp_head', 'wp_resource_hints', 2, 99 );
 
+// Version CSS file in a theme
+wp_enqueue_style(
+	'theme-styles',
+	get_stylesheet_directory_uri() . '/style.css',
+	array(),
+	filemtime( get_stylesheet_directory() . '/style.css' )
+);
