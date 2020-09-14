@@ -594,22 +594,6 @@
 	opacity: .8;
 }
 
-.entry__thumb img {
-	display: block;
-	position: absolute;
-	width: auto;
-	height: auto;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
-}
-
-.home .entry__thumb img,
-.archive .entry__thumb img,
-.search .entry__thumb img {
-	max-width: 100%;
-}
-
 form[role='search'] {
 	position: relative;
 }
