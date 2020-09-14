@@ -1862,6 +1862,8 @@ input[name='Submit']:hover {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .home .entry__thumb img,
