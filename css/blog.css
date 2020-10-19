@@ -1192,16 +1192,6 @@ textarea {
   text-decoration: none;
 }
 
-.single-post .entry__content,
-.page .entry__content {
-  display: block;
-  width: 96%;
-  max-width: 700px;
-  margin: 80px auto 0;
-  font-style: normal;
-  font-size: 16px;
-}
-
 .single-post .entry__footer,
 .page .entry__footer {
   display: block;
@@ -1800,6 +1790,16 @@ input[name='Submit']:hover {
 .comment-form-email label,
 .comment-form-url label {
   display: block;
+}
+
+.single-post .entry__content,
+.page .entry__content {
+  display: block;
+  width: 96%;
+  max-width: 700px;
+  margin: 80px auto 0;
+  font-style: normal;
+  font-size: 16px;
 }
 
 .single-post .entry__header,
