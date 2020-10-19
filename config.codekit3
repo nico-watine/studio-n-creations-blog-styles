@@ -532,6 +532,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/partials/theme/_page-structure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/theme/_page-structure.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/partials/theme/_theme-basics.scss": {
 		"aP": 0,
 		"bl": 0,
