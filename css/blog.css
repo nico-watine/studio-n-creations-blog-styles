@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.6.1
+Version: 1.6.1.1
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap");
 html {
@@ -1795,11 +1795,19 @@ input[name='Submit']:hover {
 .single-post .entry__content,
 .page .entry__content {
   display: block;
-  width: 96%;
+  width: 88%;
+  padding: 0 16px;
   max-width: 700px;
   margin: 80px auto 0;
   font-style: normal;
   font-size: 16px;
+}
+
+@media only screen and (max-width : 400px) {
+  .single-post .entry__content,
+.page .entry__content {
+    width: auto;
+  }
 }
 
 .single-post .entry__header,
