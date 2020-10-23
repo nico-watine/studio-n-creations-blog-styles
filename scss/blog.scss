@@ -27,7 +27,7 @@ Version: 1.6.2
 
 // Wordpress
 @import 'partials/_screen-reader.scss';
-@import 'partials/_wordpress-basics.scss';
+@import 'partials/wordpress/_wordpress.scss';
 
 // Theme Specifics
 @import 'partials/theme/_theme.scss';

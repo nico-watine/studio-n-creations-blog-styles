@@ -389,19 +389,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/partials/_wordpress-basics.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/partials/_wordpress-basics.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/scss/partials/forms/_button.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -567,6 +554,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/theme/_theme.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/partials/wordpress/_wordpress.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/wordpress/_wordpress.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
