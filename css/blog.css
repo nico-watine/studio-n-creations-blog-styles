@@ -2144,9 +2144,13 @@ input[name='Submit']:hover {
     color: rgba(255, 255, 255, 0.78);
   }
   .entry {
-    background-color: #4A4A4D;
-    border: 1px solid #4E4F52;
+    background-color: #4a4a4d;
+    border: 1px solid #4e4f52;
     border-radius: 4px;
+  }
+  .entry__featured {
+    background: rgba(255, 255, 255, 0.78);
+    color: #000;
   }
   .single-post .entry,
 .page .entry {
