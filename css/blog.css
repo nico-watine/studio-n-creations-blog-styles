@@ -1328,12 +1328,6 @@ form[role='search'] .search-submit:hover {
   display: block;
   position: relative;
   width: 100%;
-  color: #1779ba;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  color: #1468a0;
 }
 
 .nav-previous,
