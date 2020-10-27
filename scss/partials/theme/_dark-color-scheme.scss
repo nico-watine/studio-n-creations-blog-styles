@@ -15,7 +15,9 @@
 		border-radius: 4px;
 	}
 
-	.entry__content p {
+	.home .entry__content p,
+	.archive .entry__content p,
+	.search .entry__content p {
 		color: #fff;
 	}
 
