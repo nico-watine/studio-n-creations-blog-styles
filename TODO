@@ -1,8 +1,14 @@
 Blog CSS:
 	☐	Accurately set up repo (package.json)
-	☐	Ensure repo is in sync with GitHub
+	✔	Ensure repo is in sync with GitHub @done (20-10-26 23:55)
 	☐	Customixe (trim) normalize
 	☐	Confirm accurate styles
-	☐	Compress and upload new CSS file
-	☐	Create .sketch file to visually match big styles (typography/colors,etc)
+	✔	Compress and upload new CSS file @done (20-10-26 23:55)
+	✔	Create .sketch file to visually match big styles (typography/colors,etc) @done (20-10-26 23:55)
 	☐	Featured image responsive visuals
+
+CSS:
+	☐	dark-scheme - comments boxes
+	☐	dark-scheme - blog roll
+	☐	standardize all <a> styles
+	☐

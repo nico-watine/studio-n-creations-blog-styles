@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.6.2
+Version: 1.7.0
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap");
 html {
@@ -1000,14 +1000,13 @@ textarea {
   margin: 0;
 }
 
-.entry__footer a {
-  padding: 2px 4px;
+.entry__footer {
+  color: #999;
+  font-size: 12px;
 }
 
-.entry__footer a:hover,
-.entry__footer a:focus {
-  color: #1468a0;
-  text-decoration: underline;
+.entry__footer a {
+  padding: 2px 4px;
 }
 
 .entry__footer .comments-link {
@@ -1064,16 +1063,6 @@ textarea {
   margin-top: 0;
 }
 
-.widget a {
-  color: #1779ba;
-}
-
-.widget a:hover,
-.widget a:focus {
-  color: #1468a0;
-  text-decoration: underline;
-}
-
 .widget_archive ul,
 .widget_categories ul,
 .widget_meta ul {
@@ -1093,6 +1082,7 @@ textarea {
   border: 1px solid #eee;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  border-radius: 4px;
 }
 
 @media (min-width: 640px) {
@@ -1103,15 +1093,6 @@ textarea {
 
 .entry:first-child {
   margin-top: 0;
-}
-
-.entry__info a {
-  color: #1779ba;
-}
-
-.entry__info a:hover,
-.entry__info a:focus {
-  color: #1468a0;
 }
 
 .entry__title {
@@ -1135,15 +1116,6 @@ textarea {
 .page .entry__info .entry__meta {
   margin: 8px 0;
   color: #fff;
-}
-
-.entry__footer {
-  color: #999;
-  font-size: 12px;
-}
-
-.entry__footer a {
-  color: #1779ba;
 }
 
 .home .entry__content p,
@@ -1338,12 +1310,6 @@ form[role='search'] .search-submit:hover {
   display: block;
   position: relative;
   width: 100%;
-  color: #1779ba;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  color: #1468a0;
 }
 
 .nav-previous,
@@ -2167,4 +2133,62 @@ input[name='Submit']:hover {
 
 .bodyfixed {
   overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #323233;
+    color: rgba(255, 255, 255, 0.78);
+    -webkit-font-smoothing: auto;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .entry {
+    background-color: #4a4a4d;
+    border: 1px solid #4e4f52;
+  }
+  .home .entry__content p,
+.archive .entry__content p,
+.search .entry__content p {
+    color: #fff;
+  }
+  .entry__featured {
+    background: #fff;
+    color: #000;
+  }
+  .entry__meta {
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .entry__footer {
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .single-post .entry,
+.page .entry {
+    background-color: #4a4a4d;
+  }
+  a {
+    color: #5ac8fa;
+  }
+  a:hover, a:focus {
+    color: #5ac8fa;
+  }
+  .comment {
+    background: #2b2c2e;
+    border: 1px solid #4e4f52;
+    border-radius: 4px;
+  }
+  .comment .comment.odd {
+    background: #4a4a4d;
+  }
+  input[name='submit'] {
+    background: #5ac8fa;
+    color: #333;
+    border-radius: 4px;
+  }
+  textarea {
+    background: #4a4a4d;
+    color: #fff;
+    border-radius: 4px;
+  }
 }
