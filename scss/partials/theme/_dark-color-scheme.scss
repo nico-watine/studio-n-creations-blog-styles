@@ -3,4 +3,13 @@
 		background: #323233;
 		color: rgba(255,255,255,.78);
 	}
+
+	.single-post .entry,
+	.page .entry {
+		background-color: #4a4a4d;
+	}
+
+	.entry__content p {
+		color: rgba(255,255,255,.78);
+	}
 }

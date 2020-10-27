@@ -685,13 +685,6 @@ textarea {
   display: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #323233;
-    color: rgba(255, 255, 255, 0.78);
-  }
-}
-
 .bg-danger {
   border: 1px solid;
   padding: 10px;
@@ -2174,4 +2167,18 @@ input[name='Submit']:hover {
 
 .bodyfixed {
   overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #323233;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .single-post .entry,
+.page .entry {
+    background-color: #4a4a4d;
+  }
+  .entry__content p {
+    color: rgba(255, 255, 255, 0.78);
+  }
 }
