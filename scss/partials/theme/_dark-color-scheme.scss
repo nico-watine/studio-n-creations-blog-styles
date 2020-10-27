@@ -2,6 +2,7 @@
 	body {
 		background: #323233;
 		color: rgba(255,255,255,.78);
+		-webkit-font-smoothing: auto;
 	}
 
 	.single-post .entry,
@@ -11,5 +12,14 @@
 
 	.entry__content p {
 		color: rgba(255,255,255,.78);
+	}
+
+	a {
+		color: #5ac8fa;
+
+		&:hover,
+		&:focus {
+			color: #5ac8fa;
+		}
 	}
 }

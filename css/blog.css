@@ -2173,6 +2173,7 @@ input[name='Submit']:hover {
   body {
     background: #323233;
     color: rgba(255, 255, 255, 0.78);
+    -webkit-font-smoothing: auto;
   }
   .single-post .entry,
 .page .entry {
@@ -2180,5 +2181,11 @@ input[name='Submit']:hover {
   }
   .entry__content p {
     color: rgba(255, 255, 255, 0.78);
+  }
+  a {
+    color: #5ac8fa;
+  }
+  a:hover, a:focus {
+    color: #5ac8fa;
   }
 }
