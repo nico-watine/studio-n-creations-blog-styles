@@ -2156,9 +2156,6 @@ input[name='Submit']:hover {
 .page .entry {
     background-color: #4a4a4d;
   }
-  .entry__content p {
-    color: rgba(255, 255, 255, 0.78);
-  }
   a {
     color: #5ac8fa;
   }
