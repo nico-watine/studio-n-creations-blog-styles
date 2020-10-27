@@ -685,6 +685,12 @@ textarea {
   display: block;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #323233;
+  }
+}
+
 .bg-danger {
   border: 1px solid;
   padding: 10px;
