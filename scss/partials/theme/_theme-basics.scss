@@ -311,14 +311,13 @@
 	margin: 0;
 }
 
-.entry__footer a {
-	padding: 2px 4px;
+.entry__footer {
+	color: #999;
+	font-size: 12px;
 }
 
-.entry__footer a:hover,
-.entry__footer a:focus {
-	color: #1468a0;
-	text-decoration: underline;
+.entry__footer a {
+	padding: 2px 4px;
 }
 
 .entry__footer .comments-link {
@@ -446,15 +445,6 @@
 .page .entry__info .entry__meta {
 	margin: 8px 0;
 	color: #fff;
-}
-
-.entry__footer {
-	color: #999;
-	font-size: 12px;
-}
-
-.entry__footer a {
-	color: #1779ba;
 }
 
 .home .entry__content p,
