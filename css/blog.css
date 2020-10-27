@@ -2162,4 +2162,11 @@ input[name='Submit']:hover {
   a:hover, a:focus {
     color: #5ac8fa;
   }
+  .comment {
+    background: #2b2c2e;
+    border: 1px solid #4e4f52;
+  }
+  .comment .comment.odd {
+    background: #4a4a4d;
+  }
 }
