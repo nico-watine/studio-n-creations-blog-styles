@@ -2154,6 +2154,8 @@ input[name='Submit']:hover {
   }
   .entry {
     background-color: #4A4A4D;
+    border: 1px solid #4E4F52;
+    border-radius: 4px;
   }
   .single-post .entry,
 .page .entry {
