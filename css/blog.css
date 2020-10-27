@@ -2148,9 +2148,18 @@ input[name='Submit']:hover {
     border: 1px solid #4e4f52;
     border-radius: 4px;
   }
+  .entry__content p {
+    color: #fff;
+  }
   .entry__featured {
-    background: rgba(255, 255, 255, 0.78);
+    background: #fff;
     color: #000;
+  }
+  .entry__meta {
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .entry__footer {
+    color: rgba(255, 255, 255, 0.78);
   }
   .single-post .entry,
 .page .entry {

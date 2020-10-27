@@ -15,9 +15,21 @@
 		border-radius: 4px;
 	}
 
+	.entry__content p {
+		color: #fff;
+	}
+
 	.entry__featured {
-		background: rgba(255,255,255,.78);
+		background: #fff;
 		color: #000;
+	}
+
+	.entry__meta {
+		color: rgba(255,255,255,.78);
+	}
+
+	.entry__footer {
+		color: rgba(255,255,255,.78);
 	}
 
 	.single-post .entry,
