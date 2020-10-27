@@ -688,6 +688,7 @@ textarea {
 @media (prefers-color-scheme: dark) {
   body {
     background: #323233;
+    color: rgba(255, 255, 255, 0.78);
   }
 }
 
