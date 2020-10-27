@@ -1082,6 +1082,7 @@ textarea {
   border: 1px solid #eee;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  border-radius: 4px;
 }
 
 @media (min-width: 640px) {
@@ -2146,7 +2147,6 @@ input[name='Submit']:hover {
   .entry {
     background-color: #4a4a4d;
     border: 1px solid #4e4f52;
-    border-radius: 4px;
   }
   .home .entry__content p,
 .archive .entry__content p,
@@ -2176,6 +2176,7 @@ input[name='Submit']:hover {
   .comment {
     background: #2b2c2e;
     border: 1px solid #4e4f52;
+    border-radius: 4px;
   }
   .comment .comment.odd {
     background: #4a4a4d;
@@ -2183,9 +2184,11 @@ input[name='Submit']:hover {
   input[name='submit'] {
     background: #5ac8fa;
     color: #333;
+    border-radius: 4px;
   }
   textarea {
     background: #4a4a4d;
     color: #fff;
+    border-radius: 4px;
   }
 }

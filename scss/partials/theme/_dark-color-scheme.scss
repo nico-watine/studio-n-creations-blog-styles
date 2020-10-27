@@ -12,7 +12,6 @@
 	.entry {
 		background-color: #4a4a4d;
 		border: 1px solid #4e4f52;
-		border-radius: 4px;
 	}
 
 	.home .entry__content p,
@@ -51,6 +50,7 @@
 	.comment {
 		background: #2b2c2e;
 		border: 1px solid #4e4f52;
+		border-radius: 4px;
 	}
 
 	.comment .comment.odd {
@@ -60,10 +60,12 @@
 	input[name='submit'] {
 		background: #5ac8fa;
 		color: #333;
+		border-radius: 4px;
 	}
 
 	textarea {
 		background: #4a4a4d;
 		color: #fff;
+		border-radius: 4px;
 	}
 }
