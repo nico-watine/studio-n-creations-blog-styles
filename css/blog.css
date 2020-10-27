@@ -1094,15 +1094,6 @@ textarea {
   margin-top: 0;
 }
 
-.entry__info a {
-  color: #1779ba;
-}
-
-.entry__info a:hover,
-.entry__info a:focus {
-  color: #1468a0;
-}
-
 .entry__title {
   word-wrap: break-word;
 }
