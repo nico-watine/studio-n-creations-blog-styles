@@ -53,31 +53,15 @@
 		background: $commentColor_primary-dark;
 	}
 
-	.comment.depth-2 {
-		background: $commentColor_secondary-dark;
-	}
-
-	.comment.depth-3 {
-		background: $commentColor_primary-dark;
-	}
-
+	.comment.depth-2,
 	.comment.depth-4 {
 		background: $commentColor_secondary-dark;
 	}
 
+	.comment.depth-3,
 	.comment.depth-5 {
 		background: $commentColor_primary-dark;
 	}
-
-	// .comment.even,
-	// .comment.even + .odd {
-	// 	background: $commentColor_primary-dark;
-	// }
-
-	// .comment .comment.odd,
-	// .comment.depth-2 {
-	// 	background: $commentColor_secondary-dark;
-	// }
 
 	input[name='submit'] {
 		background: #5ac8fa;

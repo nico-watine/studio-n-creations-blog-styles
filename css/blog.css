@@ -2178,16 +2178,12 @@ input[name='Submit']:hover {
     border-radius: 4px;
     background: #2b2c2e;
   }
-  .comment.depth-2 {
+  .comment.depth-2,
+.comment.depth-4 {
     background: #4a4a4d;
   }
-  .comment.depth-3 {
-    background: #2b2c2e;
-  }
-  .comment.depth-4 {
-    background: #4a4a4d;
-  }
-  .comment.depth-5 {
+  .comment.depth-3,
+.comment.depth-5 {
     background: #2b2c2e;
   }
   input[name='submit'] {
