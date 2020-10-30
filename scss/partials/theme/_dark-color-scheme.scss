@@ -50,17 +50,17 @@
 	.comment {
 		border: 1px solid #222;
 		border-radius: 4px;
-		background: #2b2c2e;
+		background: $commentColor_primary-dark;
 	}
 
-	.comment.even,
-	.comment.even + .odd {
-		background: #2b2c2e;
+	.comment.depth-2,
+	.comment.depth-4 {
+		background: $commentColor_secondary-dark;
 	}
 
-	.comment .comment.odd,
-	.comment.depth-2 {
-		background: #4a4a4d;
+	.comment.depth-3,
+	.comment.depth-5 {
+		background: $commentColor_primary-dark;
 	}
 
 	input[name='submit'] {

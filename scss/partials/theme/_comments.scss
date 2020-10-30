@@ -1,0 +1,187 @@
+.comments {
+	display: block;
+	width: 96%;
+	max-width: 700px;
+	margin: 40px auto 0;
+}
+
+.comments textarea {
+	width: 100%;
+}
+
+.comments__title {
+	font-size: 16px;
+}
+
+.comments__list {
+	margin-left: 0;
+	padding: 0;
+}
+
+.comments__list li {
+	list-style: none;
+}
+
+.comment {
+	list-style: none;
+	margin-top: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: $commentColor_primary;
+}
+
+@media (min-width: 640px) {
+	.comment {
+		padding: 24px;
+	}
+}
+
+.comment .children {
+	padding: 0;
+}
+
+.comment.depth-2,
+.comment.depth-4 {
+	background: $commentColor_secondary;
+}
+
+.comment.depth-3,
+.comment.depth-5 {
+	background: $commentColor_primary;
+}
+
+.comment table {
+	margin-top: 40px;
+	width: 96%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.comment th,
+.comment td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.comment th {
+	background-color: #eee;
+}
+
+.comment dl {
+	margin-top: 40px;
+	font-size: 16px;
+}
+
+.comment dt {
+	margin-top: 20px;
+}
+
+.comment dd {
+	margin-left: 20px;
+}
+
+.comment ul {
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.comment ul li {
+	margin-top: 8px;
+	list-style: disc;
+	font-size: 16px;
+}
+
+.comment ol {
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.comment ol li {
+	margin-top: 8px;
+	list-style: decimal;
+	font-size: 16px;
+}
+
+.comment ol.children li {
+	list-style: none;
+}
+
+.comment li ul,
+.comment li ol {
+	margin-top: 8px;
+}
+
+.comment blockquote {
+	position: relative;
+	display: block;
+	width: 96%;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 40px;
+	background-color: #eee;
+}
+
+.comment blockquote::before {
+	content: '“';
+	font-size: 50px;
+	line-height: 1em;
+	font-family: sans-serif;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.comment blockquote p,
+.comment blockquote h1,
+.comment blockquote h2,
+.comment blockquote h3,
+.comment blockquote h4,
+.comment blockquote h5,
+.comment blockquote h6,
+.comment blockquote ul,
+.comment blockquote ol,
+.comment blockquote dl,
+.comment blockquote table {
+	margin: 0;
+}
+
+.comment pre {
+	width: 100%;
+	padding: 10px;
+}
+
+.comment p {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.pingback {
+	margin-top: 8px;
+}
+
+.comment-notes {
+	margin: 20px 0 10px;
+}
+
+.required {
+	color: #f00;
+}
+
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+	margin: 20px 0 0;
+}
+
+.comment-form-comment label,
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+	display: block;
+}
