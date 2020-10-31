@@ -17,7 +17,8 @@ function modernize_posted_on() {
 	$entry = get_the_date( 'Ymd' );
 	$modified = get_the_modified_date( 'Ymd' );
 
-	if ( $entry !== $modified && !is_home() && !is_archive() && !is_search() ) {
+	// if ( $entry !== $modified && !is_home() && !is_archive() && !is_search() ) {
+	if ( $entry !== $modified ) {
 		$time_string = '
 		<span class="publised-label">Posted on<span>%2$s</span></span>
 		<span class="update-label">Edit on<time class="updated" datetime="%3$s">%4$s</time></span>
