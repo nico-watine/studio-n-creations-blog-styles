@@ -513,34 +513,34 @@
 	overflow-wrap: break-word;
 }
 
-.publised-label,
-.update-label {
-	display: block;
-}
+// .publised-label,
+// .update-label {
+// 	display: block;
+// }
 
-@media (min-width: 640px) {
-	.publised-label,
-	.update-label {
-		display: inline;
-	}
-}
+// @media (min-width: 640px) {
+// 	.publised-label,
+// 	.update-label {
+// 		display: inline;
+// 	}
+// }
 
-.publised-label time,
-.publised-label span,
-.update-label time,
-.update-label span {
-	margin-left: 4px;
-}
+// .publised-label time,
+// .publised-label span,
+// .update-label time,
+// .update-label span {
+// 	margin-left: 4px;
+// }
 
-@media (min-width: 640px) {
-	.update-label {
-		margin-left: 4px;
+// @media (min-width: 640px) {
+// 	.update-label {
+// 		margin-left: 4px;
 
-		&::before {
-			content: "| \00a0";
-		}
-	}
-}
+// 		&::before {
+// 			content: "| \00a0";
+// 		}
+// 	}
+// }
 
 .search .entry__content {
 	margin: 8px 0 0;
