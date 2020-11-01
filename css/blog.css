@@ -1217,7 +1217,10 @@ textarea {
 
 @media (min-width: 640px) {
   .update-label {
-    margin-left: 8px;
+    margin-left: 4px;
+  }
+  .update-label::before {
+    content: "| \00a0";
   }
 }
 
