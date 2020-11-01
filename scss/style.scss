@@ -1,0 +1,33 @@
+/*
+Theme Name: SNC Blog
+Author: Nico Watine
+Description: Theme for Studio N Creations blog
+Version: 1.9.0
+*/
+
+// Google Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap');
+
+// Variables
+@import '_var.scss';
+
+// Reset
+@import 'partials/_reset.scss';
+
+// Elements
+@import 'partials/_body.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_pre-code.scss';
+@import 'partials/_lists.scss';
+@import 'partials/_address.scss';
+@import 'partials/_table.scss';
+@import 'partials/_figure.scss';
+@import 'partials/_blockquote.scss';
+@import 'partials/forms/_forms.scss';
+
+// Wordpress
+@import 'partials/_screen-reader.scss';
+@import 'partials/wordpress/_wordpress.scss';
+
+// Theme Specifics
+@import 'partials/theme/_theme.scss';

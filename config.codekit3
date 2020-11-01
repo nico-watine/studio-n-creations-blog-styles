@@ -623,6 +623,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wordpress-theme-files/snc-blog/style.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 1
+		},
 	"/TODO": {
 		"cB": 0,
 		"ft": 8192,
