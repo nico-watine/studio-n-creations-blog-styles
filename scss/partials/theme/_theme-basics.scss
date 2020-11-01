@@ -479,16 +479,6 @@
 	text-decoration: none;
 }
 
-// .single-post .entry__content,
-// .page .entry__content {
-// 	display: block;
-// 	width: 96%;
-// 	max-width: 700px;
-// 	margin: 80px auto 0;
-// 	font-style: normal;
-// 	font-size: 16px;
-// }
-
 .single-post .entry__footer,
 .page .entry__footer {
 	display: block;
@@ -512,35 +502,6 @@
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
-
-// .publised-label,
-// .update-label {
-// 	display: block;
-// }
-
-// @media (min-width: 640px) {
-// 	.publised-label,
-// 	.update-label {
-// 		display: inline;
-// 	}
-// }
-
-// .publised-label time,
-// .publised-label span,
-// .update-label time,
-// .update-label span {
-// 	margin-left: 4px;
-// }
-
-// @media (min-width: 640px) {
-// 	.update-label {
-// 		margin-left: 4px;
-
-// 		&::before {
-// 			content: "| \00a0";
-// 		}
-// 	}
-// }
 
 .search .entry__content {
 	margin: 8px 0 0;
