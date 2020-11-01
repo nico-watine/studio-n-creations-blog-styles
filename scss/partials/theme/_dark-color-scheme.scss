@@ -74,4 +74,12 @@
 		color: #fff;
 		border-radius: 4px;
 	}
+
+	.entry__content blockquote {
+		background-color: $commentColor_primary-dark;
+	}
+
+	.entry__content blockquote::before {
+		color: #fff;
+	}
 }

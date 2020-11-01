@@ -1801,4 +1801,8 @@ input[name='Submit']:hover {
   textarea {
     background: #4a4a4d;
     color: #fff;
-    border-radius: 4px; } }
+    border-radius: 4px; }
+  .entry__content blockquote {
+    background-color: #2b2c2e; }
+  .entry__content blockquote::before {
+    color: #fff; } }
