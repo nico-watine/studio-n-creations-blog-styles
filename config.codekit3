@@ -246,19 +246,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/blog.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/blog.css",
-		"oF": 2,
-		"oS": 1,
-		"sct": 1
-		},
 	"/scss/partials/_address.scss": {
 		"aP": 0,
 		"bl": 0,
