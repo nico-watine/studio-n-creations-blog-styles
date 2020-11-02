@@ -1546,7 +1546,9 @@ input[name='Submit']:hover {
   width: 100%;
   height: 60px;
   background-color: #566372;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); }
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right); }
 
 @media (min-width: 640px) {
   .header {
