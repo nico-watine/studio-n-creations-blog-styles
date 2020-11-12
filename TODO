@@ -12,3 +12,8 @@ CSS:
 	✔	dark-scheme - blog roll @done (20-10-27 10:13)
 	☐	standardize all <a> styles
 	✔	fix alternating comment coloring @done (20-11-01 10:10)
+	☐	Review "word-wrap:break-word" CSS styles
+
+Other:
+	☐	Consistent font-weight for blog name on both main blog roll and post page
+	☐	Review color contrast visual styles (not much difference between <body> and <entry>)
