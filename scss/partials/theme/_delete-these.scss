@@ -1,3 +1,7 @@
+// -------------------------------------
+// |            .note class            |
+// -------------------------------------
+
 .note {
 	padding: 16px;
 	border: 1px solid #ccc;
@@ -31,4 +35,38 @@
 .entry__content .note ul,
 .entry__content .note ol {
 	margin-top: 20px;
+}
+
+
+
+// ----------------------------------------------------
+// |            Form-related color classes            |
+// ----------------------------------------------------
+
+.bg-danger {
+	border: 1px solid;
+	padding: 10px;
+	border-color: #cc4b37;
+	color: #cc4b37;
+}
+
+.bg-success {
+	border: 1px solid;
+	padding: 10px;
+	border-color: #3adb76;
+	color: #3adb76;
+}
+
+.bg-info {
+	border: 1px solid;
+	padding: 10px;
+	border-color: #1779ba;
+	color: #1779ba;
+}
+
+.bg-warning {
+	border: 1px solid;
+	padding: 10px;
+	border-color: #ffae00;
+	color: #ffae00;
 }
