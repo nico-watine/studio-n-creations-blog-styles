@@ -15,5 +15,5 @@ CSS:
 	☐	Review "word-wrap:break-word" CSS styles
 
 Other:
-	☐	Consistent font-weight for blog name on both main blog roll and post page
+	✔	Consistent font-weight for blog name on both main blog roll and post page @done (20-11-17 08:05)
 	☐	Review color contrast visual styles (not much difference between <body> and <entry>)
