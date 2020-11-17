@@ -13,6 +13,9 @@ CSS:
 	☐	standardize all <a> styles
 	✔	fix alternating comment coloring @done (20-11-01 10:10)
 	☐	Review "word-wrap:break-word" CSS styles
+	☐	what is .note class?
+	☐	what are the .bg-* classes for?
+	☐	what are the .mdr-column and .mdr-tile classes?
 
 Other:
 	✔	Consistent font-weight for blog name on both main blog roll and post page @done (20-11-17 08:05)
