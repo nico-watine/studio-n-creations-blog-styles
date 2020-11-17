@@ -1570,7 +1570,8 @@ input[name='Submit']:hover {
   line-height: 1.2;
   display: inline-block;
   margin: 0 0 0 8px;
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 700; }
 
 @media (min-width: 1024px) {
   .header__title {
