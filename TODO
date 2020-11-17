@@ -13,8 +13,8 @@ CSS:
 	☐	standardize all <a> styles
 	✔	fix alternating comment coloring @done (20-11-01 10:10)
 	☐	Review "word-wrap:break-word" CSS styles
-	☐	what is .note class?
-	☐	what are the .bg-* classes for?
+	✔	what is .note class? @done (20-11-17 09:31)
+	✔	what are the .bg-* classes for? @done (20-11-17 09:31)
 	☐	what are the .mdr-column and .mdr-tile classes?
 
 Other:
