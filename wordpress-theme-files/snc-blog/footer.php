@@ -28,7 +28,7 @@
 		<?php endif; ?>
 
 		<div class="footer__info">
-			<span class="colophon">&copy; Studio N Creations 2020</span>
+			<span class="colophon">&copy; Studio N Creations 2021</span>
 		</div>
 	</footer>
 
