@@ -319,10 +319,13 @@ pre {
   display: block;
   width: 96%;
   padding: 16px;
-  font-size: 16px;
   word-wrap: break-word;
   overflow: auto;
   margin: 0 auto 18px;
+}
+
+pre code {
+  font-size: 16px;
 }
 
 code {
