@@ -1,0 +1,22 @@
+.entry__content figure {
+	margin: 40px 0;
+}
+
+.entry__content figure ol,
+.entry__content figure ul {
+	margin: 0;
+	padding-left: 30px;
+}
+
+.entry__content figure.alignleft {
+	margin-right: 8px;
+}
+
+.entry__content figure.alignright {
+	margin-left: 8px;
+}
+
+.entry__content figcaption {
+	font-weight: bold;
+	text-align: center;
+}
