@@ -8,10 +8,12 @@
 	padding-left: 30px;
 }
 
+figure.alignleft,
 .entry__content figure.alignleft {
 	margin-right: 8px;
 }
 
+figure.alignright,
 .entry__content figure.alignright {
 	margin-left: 8px;
 }
@@ -19,4 +21,5 @@
 .entry__content figcaption {
 	font-weight: bold;
 	text-align: center;
+	font-size: 16px;
 }

@@ -371,29 +371,6 @@ dd {
   margin-left: 20px;
 }
 
-figure ol,
-figure ul {
-  margin-top: 20px;
-  padding-left: 30px;
-}
-
-figure.alignleft {
-  margin-right: 8px;
-}
-
-figure.alignright {
-  margin-left: 8px;
-}
-
-figcaption {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-img + figcaption {
-  font-weight: normal;
-}
-
 blockquote {
   position: relative;
   display: block;
@@ -1461,10 +1438,12 @@ input[name='Submit']:hover {
   padding-left: 30px;
 }
 
+figure.alignleft,
 .entry__content figure.alignleft {
   margin-right: 8px;
 }
 
+figure.alignright,
 .entry__content figure.alignright {
   margin-left: 8px;
 }
@@ -1472,6 +1451,7 @@ input[name='Submit']:hover {
 .entry__content figcaption {
   font-weight: bold;
   text-align: center;
+  font-size: 16px;
 }
 
 .comments {
