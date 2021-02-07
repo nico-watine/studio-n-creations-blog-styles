@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.10.5
+Version: 1.10.6
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap");
 html {
@@ -331,23 +331,6 @@ pre code {
 code {
   font-size: 80%;
   padding: 4px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-ul li {
-  list-style: disc;
-}
-
-ol li {
-  list-style: decimal;
 }
 
 address {
@@ -1442,26 +1425,10 @@ figure.alignright,
   font-size: 16px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-ul li {
-  list-style: disc;
-}
-
-ol li {
-  list-style: decimal;
-}
-
 .entry__content ul,
 .entry__content ol {
-  padding-left: 20px;
+  padding: 0 0 0 20px;
+  margin: 1em 0;
 }
 
 .entry__content ul li,
