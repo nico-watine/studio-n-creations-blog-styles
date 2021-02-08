@@ -357,6 +357,11 @@ dd {
   margin-left: 20px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 blockquote {
   position: relative;
   display: block;
