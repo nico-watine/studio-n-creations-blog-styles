@@ -644,6 +644,32 @@
 		"oS": 1,
 		"sct": 1
 		},
+	"/scss/typography/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/typography/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/typography/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/typography/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/TODO": {
 		"cB": 0,
 		"ft": 8192,
