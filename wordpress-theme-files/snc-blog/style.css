@@ -3,9 +3,29 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.10.6
+Version: 1.11.1
 */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Code+Pro&display=swap");
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/lato-v17-latin-regular.woff2") format("woff2"), url("fonts/lato-v17-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/lato-v17-latin-700.woff2") format("woff2"), url("fonts/lato-v17-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/source-code-pro-v13-latin-regular.woff2") format("woff2"), url("fonts/source-code-pro-v13-latin-regular.woff") format("woff");
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
