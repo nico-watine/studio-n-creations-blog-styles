@@ -17,7 +17,10 @@ CSS:
 	✔	what are the .bg-* classes for? @done (20-11-17 09:31)
 	☐	what are the .mdr-column and .mdr-tile classes?
 	☐	font-size for pre code
+	☐	dark-scheme: slide out nav
 
 Other:
 	✔	Consistent font-weight for blog name on both main blog roll and post page @done (20-11-17 08:05)
 	☐	Review color contrast visual styles (not much difference between <body> and <entry>)
+	☐	check on jquery and jquery-migrate necessity in <head>
+	☐	just have img and not srcset on main blog roll?
