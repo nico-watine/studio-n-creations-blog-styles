@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.11.2
+Version: 1.12.0
 */
 @font-face {
   font-family: 'Lato';
@@ -23,7 +23,7 @@ Version: 1.11.2
   font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("fonts/source-code-pro-v13-latin-regular.woff2") format("woff2"), url("fonts/source-code-pro-v13-latin-regular.woff") format("woff");
+  src: local(""), url("fonts/source-code-pro/source-code-pro.woff2") format("woff2"), url("fonts/source-code-pro/source-code-pro.woff") format("woff");
 }
 
 html {
