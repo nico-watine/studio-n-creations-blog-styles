@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.12.0
+Version: 1.13.0
 */
 @font-face {
   font-family: 'Lato';
@@ -169,7 +169,8 @@ pre {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 code,
@@ -232,7 +233,7 @@ template {
 
 body {
   background: #f4f4f4;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -308,7 +309,7 @@ h6 {
 }
 
 .monospace {
-  font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
+  font-family: 'Source Code Pro', monospace;
   -webkit-font-smoothing: auto;
   text-transform: uppercase;
   padding: 0;
@@ -346,6 +347,7 @@ pre {
 
 pre code {
   font-size: 16px;
+  padding: 0;
 }
 
 code {
@@ -753,146 +755,6 @@ textarea {
 .page .fw-primary .entry__content {
   max-width: 100%;
   width: 100%;
-}
-
-.mdr-columns {
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .mdr-columns {
-    display: flex;
-  }
-}
-
-@media (max-width: 767px) {
-  .mdr-columns.is-responsive {
-    display: flex;
-  }
-}
-
-.mdr-columns.is-multiline {
-  flex-wrap: wrap;
-}
-
-.mdr-column,
-.mdr-tile {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-@media (max-width: 767px) {
-  .mdr-column.is-2,
-.mdr-column.is-3,
-.mdr-column.is-4,
-.mdr-column.is-5,
-.mdr-column.is-6,
-.mdr-column.is-7,
-.mdr-column.is-8,
-.mdr-column.is-9,
-.mdr-column.is-10,
-.mdr-column.is-11,
-.mdr-tile.is-2,
-.mdr-tile.is-3,
-.mdr-tile.is-4,
-.mdr-tile.is-5,
-.mdr-tile.is-6,
-.mdr-tile.is-7,
-.mdr-tile.is-8,
-.mdr-tile.is-9,
-.mdr-tile.is-10,
-.mdr-tile.is-11 {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .mdr-column.is-2,
-.mdr-column.is-3,
-.mdr-column.is-4,
-.mdr-column.is-5,
-.mdr-column.is-6,
-.mdr-column.is-7,
-.mdr-column.is-8,
-.mdr-column.is-9,
-.mdr-column.is-10,
-.mdr-column.is-11,
-.mdr-tile.is-2,
-.mdr-tile.is-3,
-.mdr-tile.is-4,
-.mdr-tile.is-5,
-.mdr-tile.is-6,
-.mdr-tile.is-7,
-.mdr-tile.is-8,
-.mdr-tile.is-9,
-.mdr-tile.is-10,
-.mdr-tile.is-11 {
-    flex: none;
-  }
-  .mdr-column.is-2,
-.mdr-tile.is-2 {
-    width: 16.66667%;
-  }
-  .mdr-column.is-3,
-.mdr-tile.is-3 {
-    width: 25%;
-  }
-  .mdr-column.is-4,
-.mdr-tile.is-4 {
-    width: 33.33333%;
-  }
-  .mdr-column.is-5,
-.mdr-tile.is-5 {
-    width: 41.66667%;
-  }
-  .mdr-column.is-6,
-.mdr-tile.is-6 {
-    width: 50%;
-  }
-  .mdr-column.is-7,
-.mdr-tile.is-7 {
-    width: 58.33333%;
-  }
-  .mdr-column.is-8,
-.mdr-tile.is-8 {
-    width: 66.66667%;
-  }
-  .mdr-column.is-9,
-.mdr-tile.is-9 {
-    width: 75%;
-  }
-  .mdr-column.is-10,
-.mdr-tile.is-10 {
-    width: 83.33333%;
-  }
-  .mdr-column.is-11,
-.mdr-tile.is-11 {
-    width: 91.66667%;
-  }
-}
-
-.mdr-column {
-  display: block;
-  flex-basis: 0;
-  padding: 10px;
-}
-
-.mdr-tile {
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .mdr-tile {
-    display: flex;
-    align-items: stretch;
-    flex-basis: auto;
-    min-height: min-content;
-  }
-}
-
-.mdr-tile.is-vertical {
-  flex-direction: column;
 }
 
 .main-visual {
@@ -1739,7 +1601,8 @@ figure.alignright,
 .page .entry__thumb img {
   min-height: 100%;
   min-width: 100%;
-  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
 }
 
 .single-post .entry__thumb::after,
@@ -1760,7 +1623,8 @@ figure.alignright,
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .home .entry__thumb img,
@@ -1954,7 +1818,9 @@ figure.alignright,
   border: none;
   background-color: inherit;
   box-sizing: content-box;
-  appearance: button;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
 }
 
 @media (min-width: 1024px) {
