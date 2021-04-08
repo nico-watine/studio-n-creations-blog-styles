@@ -3,7 +3,7 @@
 Theme Name: SNC Blog
 Author: Nico Watine
 Description: Theme for Studio N Creations blog
-Version: 1.13.1
+Version: 1.13.2
 */
 @font-face {
   font-family: 'Lato';
@@ -595,6 +595,10 @@ textarea {
   display: inline;
   float: right;
   margin-left: 1.5em;
+}
+
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+  opacity: 1;
 }
 
 .wp-caption {
