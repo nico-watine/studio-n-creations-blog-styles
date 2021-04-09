@@ -24,3 +24,4 @@ Other:
 	☐	Review color contrast visual styles (not much difference between <body> and <entry>)
 	☐	check on jquery and jquery-migrate necessity in <head>
 	☐	just have img and not srcset on main blog roll?
+	☐	font-smoothing:antialiased for hidpi screens only?
